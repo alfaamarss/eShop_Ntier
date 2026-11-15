@@ -1,0 +1,15 @@
+.vs/
+**/bin/
+**/obj/
+**/Properties/PublishProfiles/
+**/appsettings.Development.json
+**/secrets.json
+**/.env
+**/.env.*
+!**/.env.example
+*.user
+*.suo
+TestResults/
+.env
+.env.*
+!.env.example

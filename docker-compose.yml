@@ -1,0 +1,16 @@
+﻿services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: eshop-ntier-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: eshop_ntier
+      POSTGRES_USER: ntier_user
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - ntier_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  ntier_postgres_data:

@@ -1,0 +1,6 @@
+@eShop.NTier.API_HostAddress = http://localhost:5188
+
+GET {{eShop.NTier.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

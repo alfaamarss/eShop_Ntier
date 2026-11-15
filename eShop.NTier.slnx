@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="eShop.NTier.API/eShop.NTier.API.csproj" />
+  <Project Path="eShop.NTier.BusinessLogic/eShop.NTier.BusinessLogic.csproj" />
+  <Project Path="eShop.NTier.DataAccess/eShop.NTier.DataAccess.csproj" />
+  <Project Path="eShop.NTier.Domain/eShop.NTier.Domain.csproj" />
+</Solution>
